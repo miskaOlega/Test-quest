@@ -1,0 +1,14 @@
+div#container {
+    display: flex;
+    font-family: sans-serif;
+}
+
+div#leftContainer {
+    flex-basis: 30%;
+    
+}
+
+div#rightContainer {
+    margin-left: 5vh;
+    flex-basis: 65%;
+}

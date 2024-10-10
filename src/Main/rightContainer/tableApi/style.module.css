@@ -1,0 +1,54 @@
+div#table {
+  background-color: white;
+  font-size: 1.5vh;
+  overflow: scroll;
+  height: 80vh;
+  text-align: center;
+  div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 20%;
+    margin: 0.1vh;
+    div {
+      display: flex;
+      justify-content: center
+    }
+  };
+  div#THead {
+    p {
+      margin-right: 0.5vh;
+    }
+  };
+  div#TBody {
+    div.tr:nth-child(odd) {
+      div {
+        background-color: gainsboro;
+      }
+    };
+    div.tr:nth-child(even) {
+      div {
+        background-color: ghostwhite;
+      }
+    }
+    div div {
+      height: 10vh;
+    }
+  }
+}
+
+div#resaults {
+  div {
+    background-color: gray;
+  }
+}
+
+div.td {
+  div {
+    width: 10%;
+  }
+  input {
+    height: 50%;
+    width: 100%;
+  }
+}
